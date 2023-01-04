@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/ico" href="/MattiasHeurlin/Wumpus-Game.git/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Sora:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Projekt</title>
+    <script type="module" crossorigin src="/MattiasHeurlin/Wumpus-Game.git/assets/index.e7b1b117.js"></script>
+    <link rel="stylesheet" href="/MattiasHeurlin/Wumpus-Game.git/assets/index.52388e88.css">
+  </head>
+  <body>
+    <main>
+      <section id="mainStage">
+        <div id="mainTextArea">
+          Welcome! <br />
+          Press the red button to start.
+        </div>
+        <button aria-label="press to start" id="startBtn"></button>
+        <input aria-label="insert input here" class="hidden" type="text" id="userTextInput" />
+        <div id="errorMsg"></div>
+        <div class="hidden" id="gameOver"></div>
+      </section>
+      <div class="behind-canvas"></div>
+      <canvas id="roomCanvas" width="300" height="200" class="hidden"></canvas>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    
+  </body>
+</html>
