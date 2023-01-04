@@ -301,6 +301,7 @@ function cavesPlaceEverything(): void {
   placeItems();
 }
 
+
 function checkXIsOk(x: number) {
   if (x < 0) {
     x = 4;
